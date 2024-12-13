@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.top-bar img {
+  width: 100px;
+  height: 100px;
+}
+.bar {
+  position: sticky;
+  top: 0px;
+}
+.bar {
+  background-color: aqua;
+  width: 100vw;
+  height: 50px;
+  margin-top: 10px;
+}
+.bar ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bar ul li {
+  list-style: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 900;
+  padding: 10px;
+}
+.bar ul li a:hover {
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  transition: background-color 1s ease;
+}
+.bar ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 8px;
+}
+.card {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card .card-content img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.card .card-content {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px;
+  border: 1px solid black;
+  background-color: white;
+  transition: background-color 0.3s ease;
+  margin-left: 100px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.card-content:hover {
+  background-color: black !important;
+  color: white;
+}
+.content h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 800;
+}
+.contact {
+  background-color: gray !important;
+  color: white;
+  padding: 20px;
+  width: 100vw;
+  height: 70vh;
+  text-align: center;
+}
+.contact label {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.contact input {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.submit {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.submit:hover {
+  background-color: black;
+  color: white;
+}
